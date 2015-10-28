@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\D3DUtil">
+      <UniqueIdentifier>{2e575336-b43e-4d28-b1c4-71d77e3ff41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\D3DUtil">
+      <UniqueIdentifier>{ca5c2a20-241d-4586-bd06-bc694437e143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\D3DUtil\MainUnit">
+      <UniqueIdentifier>{a55ed4ce-7a58-4753-aa2e-e968182bb404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\D3DUtil\SubUnit">
+      <UniqueIdentifier>{0c5df4d1-c8bd-40fb-9f6d-eed5852f68a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\D3DUtil\Texture">
+      <UniqueIdentifier>{ab1b6974-2a2c-4aef-ab42-1726cc0ea373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\D3DUtil\MainUnit">
+      <UniqueIdentifier>{a9b857de-a3ee-4eca-b7fe-8d2969a08178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\D3DUtil\SubUnit">
+      <UniqueIdentifier>{9047ef93-6b50-43ad-ae35-91cdc8c41d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\D3DUtil\Texture">
+      <UniqueIdentifier>{86249a01-0a94-43ab-90e9-e1bfaf4d9d22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DUtil.cpp">
+      <Filter>ソース ファイル\D3DUtil\MainUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="FontLoder.cpp">
+      <Filter>ソース ファイル\D3DUtil\SubUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="FpsController.cpp">
+      <Filter>ソース ファイル\D3DUtil\SubUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ソース ファイル\D3DUtil\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticTexture.cpp">
+      <Filter>ソース ファイル\D3DUtil\Texture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DUtil.h">
+      <Filter>ヘッダー ファイル\D3DUtil\MainUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="FontLoder.h">
+      <Filter>ヘッダー ファイル\D3DUtil\SubUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="FpsController.h">
+      <Filter>ヘッダー ファイル\D3DUtil\SubUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Terminal.h">
+      <Filter>ヘッダー ファイル\D3DUtil\MainUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticTexture.h">
+      <Filter>ヘッダー ファイル\D3DUtil\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ヘッダー ファイル\D3DUtil\Texture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shader\ShaderCode.sh">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+</Project>
